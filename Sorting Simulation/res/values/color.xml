@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="tab_divider">#1e1e1e</color>
+    <color name="tab_name_color">#c6c6c6</color>
+    <color name="tab_background">#aa2a2a</color>
+    <color name="orange">#f9c03b</color>
+    <color name="blue">#2991b9</color>
+    <color name="buttonColor">#30779b</color>
+    <color name="textBig">#363636</color>
+    <color name="textMedium">#00CC33</color>
+    <color name="textSmall">#ababab</color>
+    <color name="buttonFacebook">#3b5999</color>
+    <color name="buttonSignup">#31779b</color>
+    <color name="buttonLogin">#f6f6f6</color>
+    <color name="buttonLoginSceen">#59bcdb</color>
+
+    <!-- Login screen -->
+    <color name="login_login_button_focus">#da3f1e</color>
+    <color name="login_login_button_press">#00FF99</color>
+    <color name="login_login_button_normal">#00CC33</color>
+    <color name="register_button_normal">#99FFFF</color>
+    
+
+    <!-- 5RS - Import phone -->
+    <color name="list_view_divider">#c6a6a6</color>
+    <color name="header_normal">#e74c3c</color>
+    <color name="header_pressed">#c0392b</color>
+    <color name="header_list_view">#191919</color>
+
+    <!-- 5RS - Customized Sender Id -->
+    <color name="approved_time_customized">#808080</color>
+
+    <!-- More - settings -->
+    <color name="blue_setting">#5106fb</color>
+    <color name="white_setting">#ffffff</color>
+    <color name="view_color">#ffECECED</color>
+
+    <!-- Property - view_item_info_list_property -->
+    <color name="view_color_item">#ffECECED</color>
+</resources>

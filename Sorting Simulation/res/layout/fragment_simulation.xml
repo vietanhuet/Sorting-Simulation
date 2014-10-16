@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/fragment_simulation_top_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.via.customizes.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Creat new Simulation"
+            android:textColor="#00CC33"
+            android:textSize="25dp" />
+
+        <com.via.customizes.CustomEditText
+            android:id="@+id/fragment_simulation_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/border_edit_text"
+            android:hint="Quantity 1~50 (34 recommend)"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#575757"
+            android:textSize="14dp" />
+
+        <com.via.customizes.CustomEditText
+            android:id="@+id/fragment_simulation_maximum"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/border_edit_text"
+            android:hint="Maximum 1~800 (700 recommend)"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#575757"
+            android:textSize="14dp" />
+
+        <com.via.customizes.CustomEditText
+            android:id="@+id/fragment_simulation_delay"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/border_edit_text"
+            android:hint="Delay time (300 recommend)"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#575757"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment_simulation_bottom_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <com.via.customizes.CustomCheckbox
+                    android:id="@+id/fragment_simulation_bubblesort"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bubble sort"
+                    android:textColor="#575757"
+                    android:textSize="14dp" />
+
+                <com.via.customizes.CustomCheckbox
+                    android:id="@+id/fragment_simulation_selectionsort"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Selection sort"
+                    android:textColor="#575757"
+                    android:textSize="14dp" />
+
+                <com.via.customizes.CustomCheckbox
+                    android:id="@+id/fragment_simulation_insertionsort"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Insertion sort"
+                    android:textColor="#575757"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <com.via.customizes.CustomCheckbox
+                    android:id="@+id/fragment_simulation_increase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Increase"
+                    android:textColor="#575757"
+                    android:textSize="14dp" />
+
+                <com.via.customizes.CustomCheckbox
+                    android:id="@+id/fragment_simulation_reduce"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reduce"
+                    android:textColor="#575757"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.via.customizes.CustomTextView
+            android:id="@+id/fragment_simulation_creat_now"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/login_login_button"
+            android:gravity="center"
+            android:text="Creat now"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment_simulation_main_process"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.via.customizes.CustomTextView
+            android:id="@+id/fragment_simulation_stateView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="#575757"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:id="@+id/fragment_simulation_view_sorting"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <com.via.customizes.CustomTextView
+            android:id="@+id/fragment_simulation_arrayView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_edit_text"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="State"
+            android:textColor="#575757"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <com.via.customizes.CustomTextView
+                android:id="@+id/fragment_simulation_reset"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/register_login_button"
+                android:gravity="center"
+                android:text="Reset"
+                android:textColor="#00CC33"
+                android:textSize="17dp" />
+
+            <com.via.customizes.CustomTextView
+                android:id="@+id/fragment_simulation_start"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/login_login_button"
+                android:gravity="center"
+                android:text="Start"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

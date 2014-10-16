@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+    
+    <com.via.customizes.CustomTextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sorting Simulation"
+        android:textSize="30dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#00CC33"
+        android:gravity="center"/>
+    
+    <com.via.gifmoviewview.GifMovieView
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onGifClick" />
+    
+</LinearLayout>
